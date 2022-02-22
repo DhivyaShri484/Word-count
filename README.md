@@ -23,6 +23,7 @@ Python program for getting the word count from a text.
 Developed by: Dhivya Shri. B
 RegisterNumber: 21002377
 '''
+```
 def wordcount(filen):
   count = 0
   with open(filen,"r") as f1:
@@ -32,7 +33,7 @@ def wordcount(filen):
   print("The word count is", count)
 filename=input("Enter Filename:")
 wordcount(filename)
-
+```
 
 ### OUTPUT:
 <img width="469" alt="2022-02-17 (7)" src="https://user-images.githubusercontent.com/94505585/154460069-3b70b53b-4ea1-4015-b1a4-85472aa7bf35.png">
